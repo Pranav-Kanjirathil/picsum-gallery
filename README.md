@@ -63,11 +63,11 @@ Installation and Setup
 
 1. Clone the repository:
 
-git clone https://github.com/YOUR_USERNAME/picsum-gallery.git
+git clone https://github.com/Pranav-Kanjirathil/picsum-gallery.git
 
 2. Navigate to the project directory:
 
-cd picsum-gallery
+cd picsum
 
 3. Install dependencies:
 
