@@ -1,8 +1,8 @@
-Picsum – Flutter App
+# Picsum – Flutter App
 
 A simple and responsive Flutter image gallery application that fetches images from the "Picsum Photos API" (https://picsum.photos/v2/list) and displays them in a clean, modern UI.
 
-Features
+# Features
 
 - Fetch images from the Picsum Photos API.
 - Display images in a responsive grid layout.
@@ -14,7 +14,7 @@ Features
 - Loading indicators and error handling.
 - Cached network images for improved performance.
 
-Technologies Used
+# Technologies Used
 
 - Flutter – UI development
 - Dart – Programming language
@@ -22,7 +22,7 @@ Technologies Used
 - HTTP – API integration
 - Cached Network Image – Image loading and caching
 
-API Used
+# API Used
 
 Picsum Photos API
 
@@ -37,7 +37,7 @@ The API provides image information, including:
 - Image width
 - Image height
 
-Dependencies
+# Dependencies
 
 dependencies:
   flutter:
@@ -46,7 +46,7 @@ dependencies:
   provider: ^6.1.2
   cached_network_image: ^3.4.1
 
-Project Structure
+# Project Structure
 
 lib/
 ├── main.dart
@@ -59,7 +59,7 @@ lib/
 └── services/
     └── picsum_api.dart
 
-Installation and Setup
+# Installation and Setup
 
 1. Clone the repository:
 
@@ -77,16 +77,12 @@ flutter pub get
 
 flutter run
 
-Requirements
+# Requirements
 
 - Flutter SDK
 - Dart SDK
 - Android Studio or VS Code
 - Internet connection
-
-State Management
-
-This project uses Provider with "ChangeNotifier" to manage application state, including image data, loading indicators, pagination, and API errors.
 
 Author
 
