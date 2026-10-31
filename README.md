@@ -48,6 +48,7 @@ dependencies:
 
 # Project Structure
 
+```text
 lib/
 ├── main.dart
 ├── models/
@@ -55,9 +56,10 @@ lib/
 ├── providers/
 │   └── gallery_provider.dart
 ├── screens/
-│ └── gallery.dart
+│   └── gallery.dart
 └── services/
     └── picsum_api.dart
+```
 
 # Installation and Setup
 
