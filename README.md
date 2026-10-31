@@ -1,17 +1,99 @@
-# picsum
+Picsum – Flutter App
 
-A new Flutter project.
+A simple and responsive Flutter image gallery application that fetches images from the "Picsum Photos API" (https://picsum.photos/v2/list) and displays them in a clean, modern UI.
 
-## Getting Started
+Features
 
-This project is a starting point for a Flutter application.
+- Fetch images from the Picsum Photos API.
+- Display images in a responsive grid layout.
+- Show image author and details.
+- Open images in a full-screen detail view.
+- Zoom images using InteractiveViewer.
+- Pull-to-refresh functionality.
+- Infinite scrolling and pagination.
+- Loading indicators and error handling.
+- Cached network images for improved performance.
 
-A few resources to get you started if this is your first Flutter project:
+Technologies Used
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- Flutter – UI development
+- Dart – Programming language
+- Provider – State management
+- HTTP – API integration
+- Cached Network Image – Image loading and caching
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+API Used
+
+Picsum Photos API
+
+https://picsum.photos/v2/list
+
+The API provides image information, including:
+
+- Image ID
+- Author
+- Image URL
+- Download URL
+- Image width
+- Image height
+
+Dependencies
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.2
+  provider: ^6.1.2
+  cached_network_image: ^3.4.1
+
+Project Structure
+
+lib/
+├── main.dart
+├── models/
+│   └── photo_model.dart
+├── providers/
+│   └── gallery_provider.dart
+├── screens/
+│ └── gallery.dart
+└── services/
+    └── picsum_api.dart
+
+Installation and Setup
+
+1. Clone the repository:
+
+git clone https://github.com/YOUR_USERNAME/picsum-gallery.git
+
+2. Navigate to the project directory:
+
+cd picsum-gallery
+
+3. Install dependencies:
+
+flutter pub get
+
+4. Run the application:
+
+flutter run
+
+Requirements
+
+- Flutter SDK
+- Dart SDK
+- Android Studio or VS Code
+- Internet connection
+
+State Management
+
+This project uses Provider with "ChangeNotifier" to manage application state, including image data, loading indicators, pagination, and API errors.
+
+Author
+
+Pranav Kanjirathil
+
+GitHub: "Pranav-Kanjirathil" (https://github.com/Pranav-Kanjirathil)
+
+---
+
+Developed as part of a Flutter development task.
